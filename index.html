@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home-Sattvic</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/satlogo (2).png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MediTrust
+  * Template URL: https://bootstrapmade.com/meditrust-bootstrap-hospital-website-template/
+  * Updated: Jul 04 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+.floating-wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image style */
+.connect-img {
+    width: 120px;   /* adjust size */
+    margin-bottom: 8px;
+    display: none; 
+}
+
+
+
+
+  .call-buton .cc-calto-action-ripple {
+    z-index: 99999;
+    position: fixed;
+    right: 1rem;
+    bottom: 9rem;
+    background: #ffb804;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ffffff;
+    -webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+    animation: cc-calto-action-ripple 0.6s linear infinite;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .call-buton .cc-calto-action-ripple i {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 1.2rem;
+  }
+
+  .call-buton .cc-calto-action-ripple:hover i {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+
+  @-webkit-keyframes cc-calto-action-ripple {
+    0% {
+      -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+      box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+    }
+
+    100% {
+      -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+      box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+  }
+
+  @keyframes cc-calto-action-ripple {
+    0% {
+      -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+      box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+    }
+
+    100% {
+      -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+      box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+    }
+  }
+
+  span.num {
+    position: absolute;
+    color: #ec8b00;
+    left: -30%;
+    bottom: -50%;
+  }
+
+
+  /* TRACK */
+  .scroll-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 80s linear infinite;
+  }
+
+  /* PAUSE ON HOVER */
+  .scroll-wrapper:hover .scroll-track {
+    animation-play-state: paused;
+  }
+
+  /* EACH BLOCK */
+  .scroll-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 11px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    /* ⭐ VERY IMPORTANT */
+  }
+
+  /* IMAGE */
+  .scroll-item img {
+    height: 54px;
+    width: auto;
+    display: block;
+  }
+
+  /* TEXT */
+  .item {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .item:hover {
+    color: #ffd166;
+    transform: translateY(-3px);
+  }
+
+  /* PERFECT LOOP */
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
+
+    /* ⭐ changed from -50% */
+  }
+
+  #fixedWhatsAppIcon {
+    display: block;
+    position: fixed;
+    right: 12px;
+    bottom: 74px;
+    width: 50px;
+    height: 50px;
+    background-color: #54b460;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+
+    -webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+    animation: cc-calto-action-ripple 0.6s linear infinite;
+  }
+
+  #fixedWhatsAppIcon:hover {
+    background-color: #339933;
+  }
+
+
+
+</style>
+
+<body class="index-page">
+
+  <div id="loader">
+  <img src="assets/img/satlogo (2).png" alt="Loading..." class="loader-logo">
+</div>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/satlogo.png" alt="">
+
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+          
+<li class="dropdown allservicedrop">
+
+            <a href="#">
+              About
+              <i class="toggle-dropdown bi bi-chevron-down"></i>
+            </a>
+
+            <ul>
+              <li><a href="./about.html">About Our Clinic</a></li>
+              <li><a href="./aboutdoctor.html">Know Your Doctor</a></li>
+            </ul>
+
+          </li>
+
+
+          <li class="dropdown allservicedrop">
+
+            <a href="#">
+              Services
+              <i class="toggle-dropdown bi bi-chevron-down"></i>
+            </a>
+
+            <ul>
+              <li><a href="./Consultation&Diagnosis.html">Consultation & Diagnosis</a></li>
+              <li><a href="./Panchakarma&Detox.html">Panchakarma & Detox Therapies</a></li>
+              <li><a href="./PainManagement.html">Pain Management</a></li>
+              <li><a href="./WellnessBeauty.html">Wellness & Special Care</a></li>
+              <li><a href="./Skin&Beauty.html">Skin & Beauty Care</a></li>
+            </ul>
+
+          </li>
+
+<li><a href="diseases.html">Diseases</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=945" target="_blank">Book Appointment</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+
+
+
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
+            <div class="hero-content">
+              <h1 class="hero-title">Heal Naturally, Live Consciously with Ancient Ayurvedic Wisdom</h1>
+              <p class="hero-description">Experience purity, harmony, and natural healing through personalized Ayurvedic
+                consultations, authentic Panchakarma therapies, and conscious living practices.</p>
+              <div class="hero-actions">
+                <a href="#about" class="btn-primary">Book Appointment</a>
+                <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn-secondary glightbox">
+             
+                  <span>Explore Services</span>
+                </a> -->
+              </div>
+              <!-- <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-number">150+</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">98%</span>
+                  <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">24/7</span>
+                  <span class="stat-label">Support Available</span>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="300">
+            <div class="hero-visual">
+              <div class="hero-image-wrapper">
+                <img src="./assets/img/bgheroremove.png" width="300" class="img-fluid hero-image" alt="Hero Image">
+                <div class="floating-elements">
+                  <div class="floating-card card-1">
+                    <i class="bi bi-leaf"></i>
+                    <span>Organic Ingredients</span>
+                  </div>
+                  <div class="floating-card card-2">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <span>Eco-Friendly</span>
+                  </div>
+                  <div class="floating-card card-3">
+                    <i class="bi bi-globe-americas-fill"></i>
+                    <span>Sustainability</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- clientlogoscroller-start -->
+
+    <div class="scroll-wrapper">
+      <div class="scroll-track">
+
+        <!-- ITEM -->
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup47()">Vata & Joint Pain Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup48()">Digestive & Liver Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup49()">Mental & Neurological Support</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup50()">Lifestyle & Metabolic Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup51()">Skin & Hair Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="#" class="item">Rejuvenation</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup52()">Respiratory & Allergies</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup53()">Male Health & Reproductive Wellness</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup54()">Women’s Health & Fertility Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+        <!-- //new -->
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup55()"> Autoimmune & Chronic Inflammatory
+            Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup56()"> Kidney & Urinary Health</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup57()"> Pediatric / Child Health </a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <!-- 🔁 DUPLICATE ALL FOR PERFECT LOOP -->
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup47()">Vata & Joint Pain Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup48()">Digestive & Liver Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup49()">Mental & Neurological Support</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup50()">Lifestyle & Metabolic Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup51()">Skin & Hair Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="#" class="item">Rejuvenation</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup52()">Respiratory & Allergies</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup53()">Male Health & Reproductive Wellness</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup54()">Women’s Health & Fertility Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <!-- //new -->
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup55()"> Autoimmune & Chronic Inflammatory
+            Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup56()"> Kidney & Urinary Health</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup57()"> Pediatric / Child Health </a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup47()">Vata & Joint Pain Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup48()">Digestive & Liver Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup49()">Mental & Neurological Support</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup50()">Lifestyle & Metabolic Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup51()">Skin & Hair Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="#" class="item">Rejuvenation</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup52()">Respiratory & Allergies</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup53()">Male Health & Reproductive Wellness</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup54()">Women’s Health & Fertility Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <!-- //new -->
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup55()"> Autoimmune & Chronic Inflammatory
+            Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup56()"> Kidney & Urinary Health</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup57()"> Pediatric / Child Health </a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup47()">Vata & Joint Pain Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup48()">Digestive & Liver Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup49()">Mental & Neurological Support</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup50()">Lifestyle & Metabolic Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup51()">Skin & Hair Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="#" class="item">Rejuvenation</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup52()">Respiratory & Allergies</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup53()">Male Health & Reproductive Wellness</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup54()">Women’s Health & Fertility Care</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <!-- //new -->
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup55()"> Autoimmune & Chronic Inflammatory
+            Disorders</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup56()"> Kidney & Urinary Health</a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+        <div class="scroll-item">
+          <a href="javascript:void(0)" class="item" onclick="openPopup57()"> Pediatric / Child Health </a>
+          <img src="./assets/img/satlogo (2).png" alt="">
+        </div>
+
+
+
+      </div>
+      <div id="popup47" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup47()">×</span>
+          <h3 style="color: #ffb804;"> Vata & Joint Pain Disorders</h3>
+          <ul>
+            <li>Osteoarthritis (Sandhivat)</li>
+            <li>Rheumatoid Arthritis</li>
+            <li>Knee / Back / Neck Pain</li>
+            <li>Sciatica & Slip Disc</li>
+            <li>Cervical & Lumbar Spondylitis</li>
+            <li>Frozen Shoulder </li>
+            <li>Tennis Elbow</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div id="popup48" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup48()">×</span>
+          <h3 style="color: #ffb804;"> Digestive & Liver Disorders </h3>
+          <ul>
+            <li>Acidity (Amlapitta), Gas, Indigestion</li>
+            <li>Constipation / IBS</li>
+            <li>Diarrhea </li>
+            <li>Fatty Liver, Jaundice, Liver cirrhosis, Hepatitis </li>
+            <li>Piles & Fissure</li>
+            <li>Anaemia </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup49" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup49()">×</span>
+          <h3 style="color: #ffb804;">Mental & Neurological Support </h3>
+          <ul>
+            <li>Migrain</li>
+            <li>Epilepsy</li>
+            <li>Insomnia & Anxiety </li>
+            <li>Stress & Irritability</li>
+            <li>Parkinson’s disease</li>
+            <li>Stroke & Paralysis </li>
+            <li>Memory and Concentration issues</li>
+            <li>Hyperactive/ ADHD/Autism (Ayurvedic Support) </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div id="popup50" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup50()">×</span>
+          <h3 style="color: #ffb804;">Lifestyle & Metabolic Disorders</h3>
+          <ul>
+            <li>Diabetes</li>
+            <li>Thyroid Dysfunction </li>
+            <li>High BP, Cholesterol </li>
+            <li>Obesity & Weight Management </li>
+            <li>Heart Health Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup51" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup51()">×</span>
+          <h3 style="color: #ffb804;"> Skin & Hair Care</h3>
+          <ul>
+            <li>Psoriasis / Eczema / Vitiligo</li>
+            <li>Acne / Pigmentation </li>
+            <li>Chronic Skin Allergies </li>
+            <li>Hair Fall / Alopecia / Dandruff </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup52" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup52()">×</span>
+          <h3 style="color: #ffb804;"> Respiratory & Allergies </h3>
+          <ul>
+            <li>Allergies </li>
+            <li>Asthma / Bronchitis </li>
+            <li>Sinusitis </li>
+            <li>Recurrent Cold & Flu </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup53" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup53()">×</span>
+          <h3 style="color: #ffb804;">Male Health & Reproductive Wellness </h3>
+          <ul>
+            <li>Sexual Weakness </li>
+            <li>Premature Ejaculation </li>
+            <li>Erectile Dysfunction </li>
+            <li>Low Libido </li>
+            <li>Low Sperm Count</li>
+            <li>Prostate Issues </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup54" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup54()">×</span>
+          <h3 style="color: #ffb804;">Women’s Health & Fertility Care </h3>
+          <ul>
+            <li>Hormonal Imbalance </li>
+            <li>PCOD / PCOS </li>
+            <li>Menstrual Irregularities </li>
+            <li>White Discharge </li>
+            <li>Dysmenorrhea </li>
+            <li>Repeated Miscarriages Support </li>
+            <li>Fertility Support</li>
+            <li>Postpartum care & lactation support </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup55" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup55()">×</span>
+          <h3 style="color: #ffb804;">Autoimmune & Chronic Inflammatory Disorders </h3>
+          <ul>
+            <li>Autoimmune Skin Disorders: Vitiligo, Psoriasis, Eczema </li>
+            <li>Systemic Lupus Erythematosus (SLE) </li>
+            <li>Rheumatoid Arthritis </li>
+            <li>Hashimoto’s Thyroiditis (Hypothyroidism) </li>
+            <li>Graves’ Disease (Hyperthyroidism) </li>
+            <li>Type 1 Diabetes </li>
+            <li>Multiple Sclerosis (MS)</li>
+            <li>Inflammatory Bowel Disease (IBD: Crohn’s Disease, Ulcerative Colitis) </li>
+            <li>Celiac Disease</li>
+            <li>Sjögren’s Syndrome </li>
+            <li>Myasthenia Gravis</li>
+            <li>Autoimmune Hepatitis </li>
+            <li>Ankylosing Spondylitis </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div id="popup56" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup56()">×</span>
+          <h3 style="color: #ffb804;"> Kidney & Urinary Health </h3>
+          <ul>
+            <li>Kidney Stones </li>
+            <li>Urinary Tract Infections (UTI) </li>
+            <li>Burning Urination </li>
+            <li>Urinary Retention / Frequent Urination </li>
+            <li>Urinary Incontinence </li>
+            <li>Neurogenic bladder </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="popup57" class="popup">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup57()">×</span>
+          <h3 style="color: #ffb804;">Pediatric / Child Health </h3>
+          <ul>
+            <li>Recurrent Colds & Low Immunity </li>
+            <li>Poor Appetite & Weak Digestion</li>
+            <li>Bed Wetting </li>
+            <li>Concentration & Memory Support </li>
+            <li>Hyperactivity / ADHD / Autism Support </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    <!-- clientlogoscroller-End -->
+
+    <!-- Home About Section -->
+    <section id="home-about" style="background-color: #f0e2da;" class="home-about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-image">
+              <img src="assets/img/herobg.jpg" alt="Modern Healthcare Facility" class="img-fluid rounded-3 mb-4 ">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <h2>About Our Clinic</h2>
+              <p class="lead">We are a specialized Ayurvedic healthcare clinic dedicated to restoring health through
+                natural, time-tested therapies and personalized care. Our approach focuses on treating the root cause of
+                illness, not just managing symptoms.</p>
+
+              <p class="lead">By integrating classical Ayurvedic wisdom with modern diagnostic insights, we offer
+                effective solutions for acute pain, lifestyle disorders, digestive concerns, skin and allergic
+                disorders, neurological conditions, and overall wellness. Each treatment plan is thoughtfully customized
+                according to the patient’s body constitution, health condition, and lifestyle.</p>
+
+              <div class="row g-4 mt-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="feature-item">
+                    <div class="icon">
+                      <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <h4>Compassionate Care</h4>
+                    <p>We treat every patient with empathy, respect, and personalized attention throughout their healing
+                      journey.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="feature-item">
+                    <div class="icon">
+                      <i class="bi bi-star"></i>
+                    </div>
+                    <h4>Medical Excellence</h4>
+                    <p>We deliver high-quality, evidence-based healthcare through expert practice, advanced therapies,
+                      and continuous improvement.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-wrapper mt-4">
+                <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                <!-- <a href="#" class="btn btn-outline">Meet Our Team</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section><!-- /Home About Section -->
+
+    <!-- Featured Departments Section -->
+    <section id="featured-departments" class="featured-departments section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Why Choose Us
+        </h2>
+        <p>We focus on personalized, root-cause treatment using authentic Ayurvedic therapies. Our expert care combines
+          integrated mind–body balance, proven methods, and long-term wellness results.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="department-card">
+
+              <div class="department-content" style="margin-top: 65px;">
+                <div class="department-icon">
+                  <i class="bi-clipboard2-pulse"></i>
+                </div>
+                <h3>Root-Cause Healing</h3>
+                <p>We focus on identifying and treating the root cause of disease using detailed Ayurvedic diagnosis
+                  such as Nadi Pariksha, rather than just suppressing symptoms.</p>
+
+              </div>
+            </div>
+          </div><!-- End Department Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="department-card">
+
+              <div class="department-content" style="margin-top: 65px;">
+                <div class="department-icon">
+                  <i class="bi bi-flower1"></i>
+                </div>
+                <h3>Advanced Ayurvedic Therapies</h3>
+                <p>Our clinic specializes in Viddhakarma, Agnikarma, Panchakarma, Hijama, and other therapies that
+                  deliver instant results in acute pain, And improves physical and mental health.</p>
+
+              </div>
+            </div>
+          </div><!-- End Department Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="department-card">
+
+              <div class="department-content" style="margin-top: 65px;">
+                <div class="department-icon">
+                  <i class="bi bi-heart-pulse"></i>
+                </div>
+                <h3>Personalized & Holistic Care</h3>
+                <p>Each treatment plan is customized based on body constitution, disease condition, weather conditions
+                  and lifestyle, ensuring safe, natural, and long-term healing for every patient.</p>
+
+              </div>
+            </div>
+          </div>
+          <!-- End Department Card -->
+          <!-- End Department Card -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Departments Section -->
+
+
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/satlogo.png" alt="">
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Office no.103, 1st floor, C Building, Girme Heights, </p>
+            <p> Salunkhe Vihar, Wanowrie, Pune, Maharashtra 411040.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+ 91 94044 17145</span></p>
+            <p><strong>Email:</strong> <span>sattviclife9@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61585341523248"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/sattvic_advanced_ayurveda/
+ "><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/drkhanaqsazarin/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@SattvicAdvancedAyurveda"><i class="bi bi-youtube"></i></a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+              <li><a href="aboutdoctor.html">Know Your Doctor</a></li>
+
+            <li><a href="Consultation&Diagnosis.html">Services</a></li>
+<li><a href="diseases.html">Diseases</a></li>
+
+
+            <li><a href="appointment.html">Book Appointment</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="Consultation&Diagnosis.html">Consultation & Diagnosis</a></li>
+            <li><a href="Panchakarma&Detox.html">Panchakarma & Detox Therapies</a></li>
+            <li><a href="PainManagement.html">Pain Management</a></li>
+            <li><a href="WellnessBeauty.html">Wellness & Special Care</a></li>
+            <li><a href="Skin&Beauty.html">Skin & Beauty Care</a></li>
+            
+          </ul>
+        </div>
+        <!-- 
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div> -->
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Newsletter</h4>
+          <ul>
+            <li>We are a specialized Ayurvedic healthcare clinic dedicated to restoring health through natural,
+              time-tested therapies and personalized care.
+
+              Our philosophy is simple yet powerful:
+              ✨ Treat the cause. Heal Naturally. Live consciously </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">All Rights Reserved.</strong> <span>Designed &</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Developed by <a
+          href="https://wa.me/7020913813?text=Hello%20Syed%20Mudassir,%20I%20visited%20the%20website%20and%20would%20like%20to%20discuss%20a%20project%20with%20you."
+          target="_blank">Syed Mudassir</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <!-- <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <a href="https://wa.me/9404417145?text=Hello%20Got,%20your%20reference%20from%20website.."
+    id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+   
+  <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:9404417145"><i class="fa fa-phone"></i>
+    </a> -->
+  
+
+  </section>
+
+<div class="floating-wrapper">
+ 
+    <!-- Add this image -->
+    <img src="./assets/img/msg.png"  id="popupImg" class="connect-img" alt="Connect With Us">
+
+    <!-- Your existing button code (PASTE AS IT IS BELOW) -->
+    <!-- Example -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <a href="https://wa.me/9404417145?text=Hello%20Got,%20your%20reference%20from%20website.."
+    id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+   
+  <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:9404417145"><i class="fa fa-phone"></i>
+    </a>
+
+</div>
+
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

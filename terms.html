@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scrolling Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.scroll-wrapper {
+  background: #1c95a6;
+  padding: 18px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-track {
+  display: inline-flex;              /* change from inline-block */
+  align-items: center;               /* vertical center */
+  animation: slides 50s linear infinite;
+}
+
+/* CLICKABLE ITEMS */
+/* EACH TEXT ITEM */
+.item {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 34px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* ICON */
+
+/* IMAGE INSIDE ICON */
+.icon img {
+  height: 54px;        /* control image height */
+  width: auto;
+  display: block;
+}
+/* ✨ HOVER EFFECT */
+.item:hover {
+  color: #ffd166;
+  text-decoration: underline;
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+/* ANIMATION */
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* PAUSE ON HOVER */
+.scroll-wrapper:hover .scroll-track {
+  animation-play-state: paused;
+}
+</style>
+
+<div class="scroll-wrapper">
+  <div class="scroll-track">
+
+    <a href="#" class="item">Vata & Joint Pain Disorders</a>
+    <div class="icon">✤</div>
+
+    <a href="#" class="item">Mental & Neurological Support</a>
+    <div class="icon"><img  src="http://127.0.0.1:5500/assets/img/satlogo%20(2).png" width="120" alt=""></div>
+
+    <a href="#" class="item">Lifestyle & Metabolic Disorders</a>
+    <div class="icon">✤</div>
+
+    <a href="#" class="item">Skin & Hair Care</a>
+    <div class="icon">✤</div>
+
+    <!-- DUPLICATE FOR INFINITE SCROLL -->
+
+    <a href="#" class="item">Vata & Joint Pain Disorders</a>
+    <div class="icon">✤</div>
+
+    <a href="#" class="item">Mental & Neurological Support</a>
+    <div class="icon">✤</div>
+
+    <a href="#" class="item">Lifestyle & Metabolic Disorders</a>
+    <div class="icon">✤</div>
+
+    <a href="#" class="item">Skin & Hair Care</a>
+    <div class="icon">✤</div>
+
+  </div>
+</div>
+
+</body>
+</html>
